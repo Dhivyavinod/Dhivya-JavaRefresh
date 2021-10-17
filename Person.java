@@ -1,4 +1,4 @@
-package com.refresh;
+package com.Java.TextFileSort;
 
 public class Person {
 
@@ -28,5 +28,4 @@ public class Person {
 	public void setLname(String lastName) {
 		this.lname = lastName;
 	}
-	
 }
