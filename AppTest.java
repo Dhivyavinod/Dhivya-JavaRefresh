@@ -1,13 +1,12 @@
-package com.Java.TextFileSort;
+package com.java.textFileSort;
 
 import static org.junit.Assert.assertEquals;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import org.junit.Test;
 
 /**
- * Unit test for simple App.Java
+ * Unit test for simple App.Java which read input text file,process 
+ * and generate output text file
  */
 public class AppTest     
 {
@@ -15,13 +14,10 @@ public class AppTest
 	@Test
 	public void processingTextFile() throws IOException {
 			
-		//String filename="D:\\namesFL.txt";
-		
-		BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));		
-		String filename=reader.readLine();
+		String filename="D:\\namesFL.txt";
     	String result=App.processingTextFile(filename); 
     	System.out.println(System.out);
-    	String expected = "Copied Successfuly to output.txt";
+    	String expected = "Copied Successfuly to Filename :created names-sorted.txt";
     	assertEquals(result,expected);
 		
 	}

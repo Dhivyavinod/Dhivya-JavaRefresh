@@ -1,4 +1,4 @@
-package com.Java.TextFileSort;
+package com.java.textFileSort;
 
 public class Person {
 
